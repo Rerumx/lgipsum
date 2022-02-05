@@ -17,7 +17,9 @@
 
 .head_flex,
 .foot_flex,
-.about {
+.about,
+.sub,
+.plan_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,6 +106,113 @@
 
 .btn_sec2:hover {
   background: #d7d7f7;
+}
+
+.sub {
+  margin-bottom: 85px;
+}
+
+.sub_title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 57px;
+  color: #19191b;
+  margin-bottom: 40px;
+}
+
+.input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #7087ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 14px;
+  margin-right: 40px;
+}
+
+.input::placeholder,
+.input {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.plans {
+  margin-bottom: 130px;
+}
+
+.plans_title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  color: #19191b;
+  max-width: 500px;
+  margin-bottom: 110px;
+}
+
+.item {
+  width: 330px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.item:hover {
+  transition: 500ms;
+  background: #ff7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+  border-radius: 10px;
+}
+
+.item_text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #696871;
+}
+
+.item:hover .item_text,
+.item:hover .item_title,
+.item:hover .item_li {
+  transition: 500ms;
+  color: white;
+}
+
+.item_title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 56px;
+  color: #1d293f;
+  margin: 25px 0;
+}
+
+.item_title span {
+  font-size: 28px;
+}
+
+.item_li {
+  list-style: none;
+  font-size: 17px;
+  line-height: 50px;
+  color: #696871;
+}
+
+.btn_item {
+  width: 285px;
+  background: white;
+  color: #5454d4;
+  margin-top: 35px;
+}
+
+.item:hover .btn_item {
+  background: #9f3919;
+  color: white;
+  transition: 500ms;
 }
 
 .footer {
